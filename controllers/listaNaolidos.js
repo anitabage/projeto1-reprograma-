@@ -1,7 +1,7 @@
 const livros = require('../database')
 const read = require('readline-sync')
 
-const listaNaoLidos = () => {
+const listaNaolidos = () => {
     const opcaoInicial = read.question ('Deseja listar livros não lidos? S/N ').toUpperCase()
 
     if (opcaoInicial === 'S') {
@@ -10,4 +10,4 @@ const listaNaoLidos = () => {
     }
 }
 
-module.exports = listaNaoLidos
+module.exports = listaNaolidos
